@@ -1,0 +1,17 @@
+sensordata.mat:  data of the sensors detection
+scenariomat/createScenario1.mat: drivingtoolbox scenario mat to generate the secnario
+processtestdata.m:  code to process the sensordata
+scenario1.mat: data contains meas/truth/ego
+
+This scenario contains 4 cars:
+the ego car runs at 8m/s frrom [30;0] to [250;0]
+the front car runs at 8m/s from [50;0] to [270;0]         
+a passingcar runs at 10m/s from [3;3.6] to [270;3.6]    1.8s~250s
+a backcar runs at  7m/s from [20;-3.6] to [120;-3.4]     0~13.85s
+
+
+the ego car equips 5 radar:
+1 long range front radar
+4 short range radar
+pd:0.9
+fa: 1e-6
